@@ -130,7 +130,7 @@ a {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -219,10 +219,6 @@ a {
 }
 
 /********** Mis proyectos **********/
-.section {
-  padding: 2rem 1rem;
-}
-
 .projects > .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
