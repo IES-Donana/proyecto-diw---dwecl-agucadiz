@@ -115,8 +115,12 @@ a {
 }
 
 #miFoto {
-  padding: 2rem;
+  padding: 3em;
 
+}
+
+#txt-sobre {
+  margin-left: 3em;
 }
 
 /*** linea de tiempo ***/
