@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="container">
+  <header class="header">
     <section class="container">
-      <div>
+      <div class="nombre">
         <a href="index.html">Agustín Pedrote Bejarano</a>
       </div>
       <nav class="menu">
@@ -21,5 +27,98 @@
       </nav>
     </section>
   </header>
+  <section id="inicio" class="home">
+    <div class="container-image">
+      <img id="img-inicio" src="assets/inicio.jpg" alt="inicio">
+    </div>
+  </section>
+  <section id="sobre" class="about espaciado">
+    <article>
+      <aside class="sobre-nombre">
+        <h1 class="dcha">Agustín Pedrote Bejarano</h1>
+        <h5 class="dcha">Desarrollador web</h5>
+      </aside>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ipsum leo,
+        feugiat ut arcu sit amet, laoreet hendrerit mauris. Proin ut tempor massa. Quisque
+        vulputate quam magna, nec eleifend felis porttitor eget. Duis a pharetra lorem.</p>
+
+      <p>Aliquam dapibus ullamcorper felis, et lobortis orci dignissim vitae. Pellentesque
+        quis nisi ut tellus ultrices tincidunt sed vitae sapien.</p>
+
+      <div class="timeline">
+        <div class="container-time left">
+          <div class="content">
+            <h2>2017</h2>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+        <div class="container-time right">
+          <div class="content">
+            <h2>2016</h2>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article>
+      <div>
+      <img src="assets/miFoto.jpg" alt="Agustín" id="miFoto">
+      </div id="miFoto">
+      <div class="centrado">
+        <a href="assets/CV.pdf" class="boton" target="_blank">DESCARGA MI CV</a>
+      </div>
+    </article>
+  </section>
+  <section id="proyectos" class="projects section">
+    <div class="container">
+      <h2 class="section-title">Mis Proyectos</h2>
+      <a href="https://github.com/ies-donana-daw/temporizador-pomodoro-antonio-fernando-agu" target="_blank" class="portafolio">
+        <img src="assets/pomodoro.jpg" alt="Pomodoro">
+        <aside class="portafolio-info">
+          <div>
+            <h3>Proyecto Pomodoro</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam modi dolore, ab unde labore totam
+              repudiandae omnis quam nesciunt eveniet, sequi ipsam ad culpa voluptatibus delectus ex voluptas provident?
+            </p>
+          </div>
+        </aside>
+      </a>
+      <a href="https://github.com/IES-Donana/guia-de-estilo-en-html-agucadiz" target="_blank" class="portafolio">
+        <img src="assets/cliente.jpg" alt="Guía de estilo">
+        <aside class="portafolio-info">
+          <div>
+            <h3>Guía de estilo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam modi dolore, ab unde labore totam
+              repudiandae omnis quam nesciunt eveniet, sequi ipsam ad culpa voluptatibus delectus ex voluptas provident?
+            </p>
+          </div>
+        </aside>
+      </a>
+      <a href="https://github.com/IES-Donana/hojas-de-estilo-i---pseudo-clases-y-pseudo-elementos-agucadiz" target="_blank" class="portafolio">
+        <img src="assets/css.jpg" alt="Pseudo clases y Pseudo elementos">
+        <aside class="portafolio-info">
+          <div>
+            <h3>Pseudo clases y Pseudo elementos</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam modi dolore, ab unde labore totam
+              repudiandae omnis quam nesciunt eveniet, sequi ipsam ad culpa voluptatibus delectus ex voluptas provident?
+            </p>
+          </div>
+        </aside>
+      </a>
+    </div>
+  </section>
+  <section id="testimonios" class="testimonials">
+    <h2 class="section-title">Mis Testimonios</h2>
+  </section>
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+  </section>
+  <footer class="footer">
+    <small>Sitio diseñado por Agustín Pedrote Bejarano</small>
+  </footer>
 </body>
+
 </html>
