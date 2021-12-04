@@ -345,6 +345,8 @@ a {
 .todas-redes {
   display: grid;
   grid-template-columns: 32% 32% 32%;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .redes {
@@ -352,5 +354,6 @@ a {
   grid-template-columns: 10% 10% 10% 10% 10%;
 }
 .nom-icono {
-  margin-left: -2em;
+  margin-left: -1.5em;
 }
+
