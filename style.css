@@ -1,6 +1,8 @@
 html {
   font-family: "Raleway", roboto;
   font-size: 16px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
@@ -27,7 +29,7 @@ p {
   line-height: 1.6;
 }
 
-/********** Header **********/
+/******************** HEADER ********************/
 .header {
   position: sticky;
   top: 0;
@@ -51,6 +53,7 @@ p {
   max-width: 1200px;
 }
 
+/*** Menú ***/
 .menu {
   position: static;
   width: auto;
@@ -61,6 +64,10 @@ p {
   padding: 0 1rem;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.menu a:hover {
+  color: white;
 }
 
 a {
@@ -74,12 +81,12 @@ a {
   text-decoration: none;
 }
 
-/********** Inicio **********/
+/******************** INICIO ********************/
 #img-inicio {
   width: 100%;
 }
 
-/********** Sobre mi **********/
+/******************** SOBRE MI ********************/
 #sobre {
   display: grid;
   grid-template-columns: repeat(2, 45%);
@@ -135,7 +142,6 @@ a {
   box-sizing: border-box;
 }
 
-/* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -143,7 +149,6 @@ a {
   padding: 0.5rem;
 }
 
-/* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: "";
   position: absolute;
@@ -155,7 +160,6 @@ a {
   margin-left: -3px;
 }
 
-/* Container around content */
 .container-time {
   padding: 10px 40px;
   position: relative;
@@ -163,7 +167,6 @@ a {
   width: 50%;
 }
 
-/* The circles on the timeline */
 .container-time::after {
   content: "";
   position: absolute;
@@ -177,17 +180,14 @@ a {
   z-index: 1;
 }
 
-/* Place the container to the left */
 .left {
   left: 0;
 }
 
-/* Place the container to the right */
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
 .left::before {
   content: " ";
   height: 0;
@@ -201,7 +201,6 @@ a {
   border-color: transparent transparent transparent lightgray;
 }
 
-/* Add arrows to the right container (pointing left) */
 .right::before {
   content: " ";
   height: 0;
@@ -215,12 +214,10 @@ a {
   border-color: transparent lightgray transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
 }
 
-/* The actual content */
 .content {
   padding: 20px 30px;
   background-color: lightgray;
@@ -228,7 +225,7 @@ a {
   border-radius: 6px;
 }
 
-/********** Mis proyectos **********/
+/******************** MIS PROYECTOS ********************/
 .projects > .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -285,7 +282,7 @@ a {
   opacity: 1;
 }
 
-/***** Testimonios *****/
+/******************** TESTIMONIOS ********************/
 .container-test {
   display: flex;
   flex-direction: row;
@@ -325,7 +322,7 @@ a {
   margin-right: auto;
 }
 
-/***** Contacto *****/
+/******************** CONTACTO ********************/
 .redes {
   margin: 1em auto;
   padding: 1em;
@@ -357,7 +354,7 @@ a {
   margin-left: -1.5em;
 }
 
-/** Formulario de contacto **/
+/*** FORMULARIO DE CONTACTO ***/
 .formulario {
   margin: 2em auto;
   padding: 1em;
@@ -382,4 +379,14 @@ a {
 
 .form-btn{
   width: 30%;
+}
+
+/******************** FOOTER ********************/
+.footer {
+  margin-bottom: 4em;
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+  background-color: #501464;
+  margin-bottom: 0;
 }
