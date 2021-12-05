@@ -298,7 +298,7 @@ a {
 
 .cliente-video {
   background-color: lightgray;
-  height: 15em;
+  height: 16em;
   width: 26em;
   margin-top: 6em;
   margin-left: auto;
@@ -309,9 +309,9 @@ a {
 
 .cliente-nom {
   width: 13em;
-  height: 2em;
+  height: 2.5em;
   margin: 2.5em auto 0 12%;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .cliente-com {
@@ -320,6 +320,12 @@ a {
   padding: 10px;
   margin-left: 10.5%;
   margin-right: auto;
+}
+
+.caja-coment {
+  box-shadow: 0.25em 0.25em 1em rgba(0, 0, 0, 0.25);
+  height: auto;
+  padding: 1em;
 }
 
 /******************** CONTACTO ********************/
@@ -332,6 +338,10 @@ a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+#tlf {
+  margin-left: 4em;
 }
 
 .img-contact {

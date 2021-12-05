@@ -53,7 +53,7 @@ PROYECTOS
 TESTIMONIOS
 * He colocado encima del texto explicativo el nombre del cliente.
 
-* Al texto le he puesto mayores márgenes para que quede más separado del contenido multimedia.
+* El texto lo he colocado en una caja sombreada con mayores márgenes para que quede más separado del contenido multimedia y visualmente sea mas agradable.
 
 CONTACTO
 * He colocado los iconos más separados para que ocupen el ancho de la sección.
