@@ -378,7 +378,8 @@ a {
   width: 100%;
 }
 
-.formulario imput, .formulario textarea {
+.formulario imput,
+.formulario textarea {
   font-size: 1em;
   font-family: "Raleway";
 }
@@ -387,7 +388,7 @@ a {
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
 }
 
-.form-btn{
+.form-btn {
   width: 30%;
 }
 
