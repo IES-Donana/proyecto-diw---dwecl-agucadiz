@@ -29,7 +29,7 @@ function validarInput(e) {
 
     if (this.checkValidity()) {
         todoValido++;
-        if (entradas.length === todoValido) {
+        if (inputs.length === todoValido) {
             siText();
             todoValido = 0;
         }
@@ -49,14 +49,14 @@ function validarInput(e) {
 }
 
 function validarForm() {
-    for (let i = 0; i < entradas.length; i++) {
-        if (!entradas[i].checkValidity()) {
-            if (entradas[i].validity.valueMissing) {
-                entradas[i].setCustomValidity(`El campo ${entradas[i].name} es obligatorio.`);
-                entradas[i].reportValidity();
+    for (let i = 0; i < inputs.length; i++) {
+        if (!inputs[i].checkValidity()) {
+            if (inputs[i].validity.valueMissing) {
+                inputs[i].setCustomValidity(`El campo ${inputs[i].name} es obligatorio.`);
+                inputs[i].reportValidity();
             } else {
-                entradas[i].setCustomValidity(`Utiliza un formato que coincida. ${patrones[inputs[i].id]}.`);
-                entradas[i].reportValidity();
+                inputs[i].setCustomValidity(`Utiliza un formato que coincida. ${patrones[inputs[i].id]}.`);
+                inputs[i].reportValidity();
             }
             return false;
         }
@@ -84,15 +84,15 @@ function noMayusculas(e) {
 }
 
 function siText(e) {
-    textarea.disabled = false;
+    text.disabled = false;
 }
 
-function validartextarea(e) {
-    if (!textarea.checkValidity()) {
-      if (textarea.validity.valueMissing) {
-        textarea.setCustomValidity("Por favor, déjame tus comentarios.");
+function validarText(e) {
+    if (!text.checkValidity()) {
+      if (text.validity.valueMissing) {
+        text.setCustomValidity("Por favor, déjame tus comentarios.");
       }else{
-        textarea.setCustomValidity("");
+        text.setCustomValidity("");
       }
       return true;
     }

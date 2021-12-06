@@ -392,6 +392,10 @@ a {
   width: 30%;
 }
 
+.error {
+  background-color: tomato;
+}
+
 /******************** FOOTER ********************/
 .footer {
   margin-bottom: 4em;
