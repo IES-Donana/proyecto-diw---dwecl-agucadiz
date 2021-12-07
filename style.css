@@ -1,3 +1,4 @@
+/******************** GENERAL ********************/
 html {
   font-family: "Raleway", roboto;
   font-size: 16px;
@@ -404,4 +405,60 @@ a {
   color: white;
   background-color: #501464;
   margin-bottom: 0;
+}
+
+/******************** DISPOSITIVO MÓVIL ********************/
+@media screen and (max-width: 1136px) {
+  /*** Header ***/
+  #cont-header {
+    display: none;
+  }
+
+@media screen and (max-width: 768px) {
+  /*** Sobre mi ****/
+  #sobre {
+    grid-template-columns: repeat(1, 95%);
+  }
+
+  /*** Proyectos ***/
+  .projects > .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .projects .section-title {
+    grid-column: span 2;
+  }
+
+  /*** Testimonios ***/
+  .container-test {
+    flex-direction: column;
+  }
+  .cliente-nom {
+    width: 10em;
+    height: 3em;
+    margin: 2em auto 0;
+    font-size: 16px;
+  }
+
+  .cliente-com {
+    width: 24em;
+    height: auto;
+    padding: 12px;
+    margin: auto;
+  }
+
+  .cliente-video {
+    height: 15em;
+    width: 24em;
+    margin: 1em auto auto auto;
+  }
+
+  /*** Contacto ***/
+  .todas-redes {
+    display: grid;
+    grid-template-columns: 95%;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
 }
