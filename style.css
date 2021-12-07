@@ -408,13 +408,6 @@ a {
 }
 
 /******************** DISPOSITIVO MÓVIL ********************/
-@media screen and (max-width: 1136px) {
-  /*** Header ***/
-  #cont-header {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 768px) {
   /*** Sobre mi ****/
   #sobre {
