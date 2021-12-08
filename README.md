@@ -40,7 +40,8 @@ https://www.figma.com/file/nsDHN90dFsoSltfg5ZPK9z/Untitled?node-id=0%3A1
 
 ## MODIFICACIONES A LA GUÍA DE ESTILOS<a name="id3"></a>
 INICIO
-* He insertado en la imagen el título “Portafolio” para mayor claridad del proyecto.
+* He cambiado el titulo del encabezado a "PORTAFOLIO" para mayor claridad del proyecto.
+* He insertado en la imagen mi nombre. 
 
 SOBRE MI
 * La línea de tiempo la he colocado con viñetas porque me ha parecido más atractiva la imagen visual.
