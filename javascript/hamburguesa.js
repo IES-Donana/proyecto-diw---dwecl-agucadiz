@@ -1,22 +1,24 @@
-let panel = document.getElementById("panelNav");
-let burguer = document.getElementById("hamburguesa");
+//variables
+let navegacion = document.getElementById("panelNav");
+let menuHamburguesa = document.getElementById("hamburguesa");
 let menu = document.getElementById("menu");
 let btop = document.getElementById("barraTop");
 let bbottom = document.getElementById("barraBottom");
 let bmid = document.getElementById("barraMid");
 
+//eventos
 window.addEventListener("load", visualizarBurguer);
 window.addEventListener("resize", visualizarBurguer);
-burguer.addEventListener("click", toggleMenu);
+menuHamburguesa.addEventListener("click", toggleMenu);
 
+//funciones
 function visualizarBurguer() {
-  //Podría hacerse con media queries
   if (window.innerWidth < 768) {
-    panel.style.display = "none";
-    burguer.style.display = "flex";
+    navegacion.style.display = "none";
+    menuHamburguesa.style.display = "flex";
   } else {
-    panel.style.display = "flex";
-    burguer.style.display = "none";
+    navegacion.style.display = "flex";
+    menuHamburguesa.style.display = "none";
     menu.style.transform = "translate(-100%)";
     convertirEnBurguer();
   }

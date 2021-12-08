@@ -1,4 +1,4 @@
-/******************** GENERAL ********************/
+/************************* GENERAL *************************/
 html {
   font-family: "Raleway", roboto;
   font-size: 16px;
@@ -75,7 +75,7 @@ main {
   margin: 12px;
 }
 
-/******************** HEADER ********************/
+/************************* HEADER *************************/
 .header {
   position: sticky;
   top: 0;
@@ -99,7 +99,7 @@ main {
   max-width: 1200px;
 }
 
-/*** Menú ***/
+/***** Menú *****/
 .menu {
   position: static;
   width: auto;
@@ -114,7 +114,7 @@ main {
 
 .menu a:hover {
   color: white;
-  transform:scale(1.15);
+  transform: scale(1.15);
 }
 
 a {
@@ -128,12 +128,12 @@ a {
   text-decoration: none;
 }
 
-/******************** INICIO ********************/
+/************************* INICIO *************************/
 #img-inicio {
   width: 100%;
 }
 
-/******************** SOBRE MI ********************/
+/************************* SOBRE MI *************************/
 #sobre {
   display: grid;
   grid-template-columns: repeat(2, 45%);
@@ -184,7 +184,7 @@ a {
   margin-left: 3em;
 }
 
-/*** linea de tiempo ***/
+/***** linea de tiempo *****/
 * {
   box-sizing: border-box;
 }
@@ -272,7 +272,7 @@ a {
   border-radius: 6px;
 }
 
-/******************** MIS PROYECTOS ********************/
+/************************* MIS PROYECTOS *************************/
 .projects > .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -329,7 +329,7 @@ a {
   opacity: 0.8;
 }
 
-/******************** TESTIMONIOS ********************/
+/************************* TESTIMONIOS *************************/
 .container-test {
   display: flex;
   flex-direction: row;
@@ -375,7 +375,7 @@ a {
   padding: 1em;
 }
 
-/******************** CONTACTO ********************/
+/************************* CONTACTO *************************/
 .redes {
   margin: 1em auto;
   padding: 1em;
@@ -443,7 +443,7 @@ a {
   background-color: tomato;
 }
 
-/******************** FOOTER ********************/
+/************************* FOOTER *************************/
 .footer {
   margin-bottom: 4em;
   padding: 0.5rem;
@@ -453,7 +453,9 @@ a {
   margin-bottom: 0;
 }
 
-/******************** DISPOSITIVO MÓVIL ********************/
+/*************************************************************************************/
+
+/************************* DISPOSITIVO MÓVIL *************************/
 @media screen and (max-width: 768px) {
   /*** hamburguesa ***/
   .header {
@@ -505,7 +507,7 @@ a {
     text-align: center;
   }
 
-  /*** Testimonios ***/
+  /***** Testimonios *****/
   .container-test {
     flex-direction: column;
   }
@@ -529,7 +531,7 @@ a {
     margin: 1em auto auto auto;
   }
 
-  /*** Contacto ***/
+  /***** Contacto *****/
   .todas-redes {
     display: grid;
     grid-template-columns: 95%;
