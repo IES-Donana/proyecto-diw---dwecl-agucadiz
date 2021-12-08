@@ -64,6 +64,8 @@ main {
   transform-origin: 0 0;
   transform: translate(-100%);
   transition: transform .5s cubic-bezier(.77,.2,.05,1);
+  font-weight: bold;
+
 }
 
 .menuItem{
