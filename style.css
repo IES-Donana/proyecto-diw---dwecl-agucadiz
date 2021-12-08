@@ -34,7 +34,7 @@ p {
 main {
   background: #14192d;
   padding-bottom: 1em;
-
+  display: none;
 }
 
 .barra {
@@ -78,8 +78,8 @@ main {
 .header {
   position: sticky;
   top: 0;
-  padding: 0.5rem;
-  height: 5rem;
+  padding: 1.5em;
+  height: 7em;
   background-color: #14192d;
   width: 100%;
   z-index: 999;
@@ -459,6 +459,7 @@ a {
   }
 
   main {
+    display:block;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -468,6 +469,13 @@ a {
     color: white;
     text-decoration: none;
   }
+
+  #titulo-burguer {
+    color: #d90062;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
   /*** Sobre mi ****/
   #sobre {
     grid-template-columns: repeat(1, 95%);
