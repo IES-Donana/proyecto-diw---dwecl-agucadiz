@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="javascript/validacion.js" defer></script>
+  <script src="javascript/hamburguesa.js" defer></script>
+
 </head>
 
 <body>
@@ -19,7 +21,7 @@
       <div class="nombre">
         <a href="index.html">PORTAFOLIO</a>
       </div>
-      <nav class="menu">
+      <nav class="menu" id="panelNav">
         <a href="#inicio">Inicio</a>
         <a href="#sobre">Sobre mi</a>
         <a href="#proyectos">Proyectos</a>
@@ -28,6 +30,23 @@
       </nav>
     </section>
   </header>
+  <main id="main">
+    <div id="hamburguesa">
+      <ul>
+        <li id="barraTop" class="barra"></li>
+        <li id="barraMid" class="barra"></li>
+        <li id="barraBottom" class="barra"></li>
+      </ul>
+    </div>
+
+    <div id="menu">
+      <a href="#inicio" class="menuItem">Inicio</a>
+      <a href="#sobre" class="menuItem">Sobre mi</a>
+      <a href="#proyectos" class="menuItem">Proyectos</a>
+      <a href="#testimonios" class="menuItem">Testimonios</a>
+      <a href="#contacto" class="menuItem">Contacto</a>
+    </div>
+  </main>
   <section id="inicio" class="home">
     <div class="container-image">
       <img id="img-inicio" src="assets/inicio.jpg" alt="inicio">
