@@ -65,6 +65,8 @@ main {
   transform: translate(-100%);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   font-weight: bold;
+  font-size: 14px;
+  padding: 6px;
 }
 
 .menuItem {
@@ -480,6 +482,10 @@ a {
     grid-template-columns: repeat(1, 95%);
   }
 
+  .titulo {
+    margin-left: 3.5em;
+  }
+
   /*** Proyectos ***/
   .projects > .container {
     display: grid;
@@ -488,6 +494,14 @@ a {
 
   .projects .section-title {
     grid-column: span 2;
+  }
+
+  h3 + p {
+    display: none;
+  }
+
+  h3 {
+    text-align: center;
   }
 
   /*** Testimonios ***/
@@ -521,7 +535,8 @@ a {
     grid-template-columns: repeat(1, 98%);
   }
 
-  #tlf, #mail {
+  #tlf,
+  #mail {
     margin-left: 6.5em;
   }
 }
