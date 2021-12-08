@@ -114,6 +114,7 @@ main {
 
 .menu a:hover {
   color: white;
+  transform:scale(1.15);
 }
 
 a {
@@ -466,7 +467,7 @@ a {
     z-index: 999;
   }
 
-  a {
+  #menu a {
     color: white;
     text-decoration: none;
   }
@@ -529,14 +530,10 @@ a {
   }
 
   /*** Contacto ***/
-
   .todas-redes {
     display: grid;
-    grid-template-columns: repeat(1, 98%);
-  }
-
-  #tlf,
-  #mail {
-    margin-left: 6.5em;
+    grid-template-columns: 95%;
+    margin-left: 5em;
+    margin-right: 5em;
   }
 }
