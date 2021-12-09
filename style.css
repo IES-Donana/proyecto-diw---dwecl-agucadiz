@@ -55,6 +55,11 @@ main {
   cursor: pointer;
 }
 
+@keyframes transicion {
+  from {margin-left: -50em;
+}
+}
+
 #menu {
   /* display: none; */
   position: absolute;
@@ -63,11 +68,13 @@ main {
   flex-direction: column;
   background-color: #501464;
   transform-origin: 0 0;
-  /* transform: translate(-100%); */
+  /*transform: translate(-100%);*/
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   font-weight: bold;
   font-size: 14px;
   padding: 6px;
+  animation-name: transicion;
+  animation-duration: 1.5s;
 }
 
 .menuItem {
