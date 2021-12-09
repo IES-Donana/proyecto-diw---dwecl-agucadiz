@@ -7,12 +7,14 @@ let bbottom = document.getElementById("barraBottom");
 let bmid = document.getElementById("barraMid");
 
 //eventos
-window.addEventListener("load", visualizarBurguer);
-window.addEventListener("resize", visualizarBurguer);
-menuHamburguesa.addEventListener("click", toggleMenu);
+window.addEventListener("load", abrirMenu);
+window.addEventListener("resize", abrirMenu);
+menuHamburguesa.addEventListener("click", menuDesplegable);
 
 //funciones
-function visualizarBurguer() {
+function abrirMenu() {
+  console.log("abrirMenu");
+
   if (window.innerWidth < 768) {
     navegacion.style.display = "none";
     menuHamburguesa.style.display = "flex";
@@ -20,30 +22,36 @@ function visualizarBurguer() {
     navegacion.style.display = "flex";
     menuHamburguesa.style.display = "none";
     menu.style.transform = "translate(-100%)";
-    convertirEnBurguer();
+    verBurguer();
   }
 }
 
-function toggleMenu() {
+function menuDesplegable() {
+  console.log("menuDesplegable");
+
   if (
     menu.style.transform == "translate(-100%)" ||
     menu.style.transform == ""
   ) {
     menu.style.transform = "translate(0%)";
-    convertirEnCerrar();
+    verCerrar();
   } else {
     menu.style.transform = "translate(-100%)";
-    convertirEnBurguer();
+    verBurguer();
   }
 }
 
-function convertirEnBurguer() {
+function verBurguer() {
+  console.log("verBurguer");
+
   btop.style.transform = "";
   bbottom.style.transform = "";
   bmid.style.opacity = "100";
 }
 
-function convertirEnCerrar() {
+function verCerrar() {
+  console.log("verCerrar");
+
   btop.style.transform = "translateY(140%) rotate(45deg)";
   bbottom.style.transform = "translateY(-140%) rotate(135deg)";
   bmid.style.opacity = "0";
