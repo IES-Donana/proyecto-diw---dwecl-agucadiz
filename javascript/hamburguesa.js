@@ -26,7 +26,6 @@ function abrirMenu() {
   }
 }
 
-
 function verBurguer() {
   console.log("verBurguer");
 
@@ -59,28 +58,27 @@ div.setAttribute("id", "menu");
 let a1 = document.createElement("a");
 a1.setAttribute("href", "#inicio");
 a1.setAttribute("class", "menuItem");
-a1.textContent="Inicio";
-
+a1.textContent = "Inicio";
 
 let a2 = document.createElement("a");
 a2.setAttribute("href", "#sobre");
 a2.setAttribute("class", "menuItem");
-a2.textContent="Sobre mi";
+a2.textContent = "Sobre mi";
 
 let a3 = document.createElement("a");
 a3.setAttribute("href", "#proyectos");
 a3.setAttribute("class", "menuItem");
-a3.textContent="Proyectos";
+a3.textContent = "Proyectos";
 
 let a4 = document.createElement("a");
 a4.setAttribute("href", "#testimonios");
 a4.setAttribute("class", "menuItem");
-a4.textContent="Testimonios";
+a4.textContent = "Testimonios";
 
 let a5 = document.createElement("a");
 a5.setAttribute("href", "#contacto");
 a5.setAttribute("class", "menuItem");
-a5.textContent="Contacto";
+a5.textContent = "Contacto";
 
 div.appendChild(a1);
 div.appendChild(a2);
@@ -89,13 +87,11 @@ div.appendChild(a4);
 div.appendChild(a5);
 
 function mostrarMenu() {
-
-  if(div.isConnected) {
+  if (div.isConnected) {
     div.remove();
     verBurguer();
   } else {
     verCerrar();
     menuHamburguesa.insertAdjacentElement("afterend", div);
   }
-  
 }
