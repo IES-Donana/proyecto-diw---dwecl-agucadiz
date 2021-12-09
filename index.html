@@ -231,10 +231,10 @@
       </section>
 
       <form id="form" class="formulario caja">
-        <input id="nombre" type="text" name="nombre" placeholder="Ingresa tu nombre *"
+        <input id="nombre" type="text" name="nombre" minlength="3" maxlength="50" placeholder="Ingresa tu nombre *"
           title="Nombre sólo acepta letras y espacios en blanco" pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}"
           required>
-        <input id="apellidos" type="text" name="apellidos" placeholder="Ingresa tus apellidos *"
+        <input id="apellidos" type="text" name="apellidos" pminlength="3" maxlength="50" laceholder="Ingresa tus apellidos *"
           title="Apellidos sólo acepta letras y espacios en blanco" pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}"
           required>
         <input id="email" type="email" name="email" placeholder="Ingresa tu correo *" title="Completa este campo"
