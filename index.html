@@ -41,8 +41,16 @@
     </div>
   </main>
   <section id="inicio" class="home">
-    <div class="container-image">
-      <img id="img-inicio" src="assets/inicio.jpg" alt="inicio">
+    <div class="container-image" id="divVideo">
+      <video src="videos/videoFondo.mp4" autoplay muted loop id="videofondo"></video>
+      <h1 class="hero-image-title">
+        <br>
+        Bienvenid@s<br>a mi portafolio
+      </h1>
+      <br><br>
+      <div class="centrado">
+        <a href="assets/CV.pdf" class="boton" target="_blank">MIS DATOS</a>
+      </div>
     </div>
   </section>
   <section id="sobre" class="about espaciado">
@@ -74,7 +82,10 @@
     </article>
     <article>
       <div>
-        <img src="assets/miFoto.jpg" alt="Agustín" id="miFoto">
+        <picture>
+          <source media="(max-width: 768px)" srcset="/assets/miFoto2.jpg" id="miFoto">
+          <img src="assets/miFoto.jpg" alt="Agustín" id="miFoto">
+        </picture>
       </div>
       <div class="centrado">
         <a href="assets/CV.pdf" class="boton" target="_blank">DESCARGA MI CV</a>
