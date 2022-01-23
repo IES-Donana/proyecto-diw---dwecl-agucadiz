@@ -138,40 +138,37 @@ a {
 }
 
 /************************* INICIO *************************/
-#img-inicio {
-  width: 100%;
-}
-#videofondo {
-  position: absolute;
-  z-index:-1;
-  width: 100vw;
+#titulo-cabecera-contenedor {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#divVideo {
-  height: 780px;
+#titulo-cabecera {
+  color: #fff;
+  font-size: 1em;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.video-bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .hero-image-title {
- font-size: 700%;
- color: whitesmoke;
- text-align: center;
-}
-
-.botonPrincipal {
-  outline: thin solid #14192d;
-  border: 0;
-  cursor: pointer;
-  background-color: #d90062;
-  color: #fff;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  display: inline-block;
-  width: 200px;
-  font-weight: bold;
+  font-size: 5em;
+  color: whitesmoke;
   text-align: center;
-  text-decoration: none;
 }
 
+#div-espaciado{
+  height: 6vh;
+}
 /************************* SOBRE MI *************************/
 #sobre {
   display: grid;
@@ -179,6 +176,7 @@ a {
   justify-content: space-between;
   align-content: center;
 }
+
 .boton {
   outline: thin solid #14192d;
   border: 0;
@@ -442,6 +440,17 @@ a {
   margin-right: 5em;
 }
 
+#tlf:hover,
+#mail:hover {
+  filter: invert();
+  transition: all .3s;
+}
+
+/*Aplica drop-shadow a un png con transparencia */
+.shadow {
+  filter: drop-shadow(10px 10px 4px #4444dd);
+}
+
 .redes {
   display: grid;
   grid-template-columns: 10% 10% 10% 10% 10%;
@@ -490,6 +499,12 @@ a {
   color: white;
   background-color: #501464;
   margin-bottom: 0;
+}
+
+/*img vectorial*/
+.footer img {
+  max-width: 5%;
+  filter: drop-shadow(5px 5px 4px #000);
 }
 
 /*************************************************************************************/

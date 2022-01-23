@@ -40,11 +40,9 @@
       </ul>
     </div>
   </main>
-  <section id="inicio" class="home">
-    <div class="container-image" id="divVideo">
-      <video src="videos/videoFondo.mp4" autoplay muted loop id="videofondo"></video>
+  <div id="titulo-cabecera-contenedor">
+    <div id="titulo-cabecera">
       <h1 class="hero-image-title">
-        <br>
         Bienvenid@s<br>a mi portafolio
       </h1>
       <br><br>
@@ -52,7 +50,11 @@
         <a href="assets/CV.pdf" class="boton" target="_blank">CONTÁCTAME</a>
       </div>
     </div>
-  </section>
+  </div>
+  <div>
+    <video class="video-bg" src="videos/videoFondo.mp4" autoplay muted loop></video>
+    <div id="div-espaciado"></div>
+  </div>
   <section id="sobre" class="about espaciado">
     <article>
       <aside class="sobre-nombre">
@@ -217,26 +219,30 @@
       <h2 class="section-title">Contacto</h2>
 
       <section class="todas-redes">
-        <article class="redes" id="tlf">
-          <a href="tel:617537876"><img src="assets/contact-phone.png" alt="Teléfono" class="img-contact"></a>
-          <h5 class="nom-icono"><a href="tel:617537876">617537876</a></h5>
-        </article>
-        <article class="redes" id="mail">
-          <a href="mailto:agustin.pedrote@iesdonana.org"><img src="assets/contact-email.png" alt="Email"
-              class="img-contact"></a>
-          <h5 class="nom-icono"><a href="mailto:agustin.pedrote@iesdonana.org">agustin.pedrote@iesdonana.org</a></h5>
-        </article>
+        <div class="shadow">
+          <article class="redes" id="tlf">
+            <a href="tel:617537876"><img src="assets/contact-phone.png" alt="Teléfono" class="img-contact"></a>
+            <h5 class="nom-icono"><a href="tel:617537876">617537876</a></h5>
+          </article>
+        </div>
+        <div class="shadow">
+          <article class="redes" id="mail">
+            <a href="mailto:agustin.pedrote@iesdonana.org"><img src="assets/contact-email.png" alt="Email"
+                class="img-contact"></a>
+            <h5 class="nom-icono"><a href="mailto:agustin.pedrote@iesdonana.org">agustin.pedrote@iesdonana.org</a></h5>
+          </article>
+        </div>
 
         <article class="redes">
-          <a href="https://youtube.com" target="_blank"><img src="assets/youtube.png" alt="YouTube"
+          <a href="https://youtube.com" target="_blank"><img src="assets/youtube_icon-icons.com_65487.svg" alt="YouTube"
               class="img-contact"></a>
-          <a href="https://twitter.com" target="_blank"><img src="assets/twitter.png" alt="Twitter"
+          <a href="https://twitter.com" target="_blank"><img src="assets/twitter_icon-icons.com_65486.svg" alt="Twitter"
               class="img-contact"></a>
-          <a href="https://github.com" target="_blank"><img src="assets/github.png" alt="Github"
+          <a href="https://github.com" target="_blank"><img src="assets/github_icon-icons.com_65505.svg" alt="Github"
               class="img-contact"></a>
-          <a href="https://www.linkedin.com" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn"
+          <a href="https://www.linkedin.com" target="_blank"><img src="assets/linkedin_icon-icons.com_65488.svg" alt="LinkedIn"
               class="img-contact"></a>
-          <a href="https://instagram.com" target="_blank"><img src="assets/instagram.png" alt="Instagram"
+          <a href="https://instagram.com" target="_blank"><img src="assets/instagram_icon-icons.com_65485.svg" alt="Instagram"
               class="img-contact"></a>
         </article>
       </section>
@@ -258,6 +264,11 @@
 
   </section>
   <footer class="footer">
+    <div>
+      <a href="index.html">
+        <img src="assets/agucadiz_logo.svg" alt="Agustín Pedrote Bejarano">
+      </a>
+    </div>
     <small>Sitio diseñado por Agustín Pedrote Bejarano</small>
   </footer>
 </body>
