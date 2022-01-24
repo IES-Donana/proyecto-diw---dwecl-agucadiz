@@ -534,6 +534,19 @@ a {
     font-size: 2rem;
   }
 
+  /*** Inicio ***/
+  #titulo-cabecera-contenedor {
+    height: 30vh;
+  }
+  
+  .hero-image-title {
+    font-size: 2em;
+  }
+
+  #div-espaciado{
+    display: none;
+  }
+
   /*** Sobre mi ****/
   #sobre {
     grid-template-columns: repeat(1, 95%);
