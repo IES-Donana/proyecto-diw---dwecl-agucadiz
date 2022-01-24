@@ -139,7 +139,7 @@ a {
 
 /************************* INICIO *************************/
 #titulo-cabecera-contenedor {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -153,6 +153,12 @@ a {
   max-width: 60%;
 }
 
+.hero-image-title {
+  font-size: 5em;
+  color: whitesmoke;
+  text-align: center;
+}
+
 .video-bg {
   width: 100%;
   position: absolute;
@@ -160,15 +166,10 @@ a {
   left: 0;
 }
 
-.hero-image-title {
-  font-size: 5em;
-  color: whitesmoke;
-  text-align: center;
-}
-
 #div-espaciado{
   height: 6vh;
 }
+
 /************************* SOBRE MI *************************/
 #sobre {
   display: grid;
@@ -211,6 +212,11 @@ a {
   margin-right: auto;
   width: 65%;
   padding: 1em;
+}
+
+#miFoto:hover {
+  filter: grayscale(100%);
+  transition: all .5s;
 }
 
 .centrado {
@@ -440,11 +446,13 @@ a {
   margin-right: 5em;
 }
 
+/*
 #tlf:hover,
 #mail:hover {
-  filter: invert();
-  transition: all .3s;
+  filter: grayscale(100%);
+  transition: all .5s;
 }
+*/
 
 /*Aplica drop-shadow a un png con transparencia */
 .shadow {
@@ -544,6 +552,10 @@ a {
   }
 
   #div-espaciado{
+    display: none;
+  }
+
+  .centrado {
     display: none;
   }
 
