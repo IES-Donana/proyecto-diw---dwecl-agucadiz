@@ -136,11 +136,20 @@ a {
   font-size: 2.5rem;
   text-decoration: none;
   margin-left: -9em;
+  animation-name: logotipo;
+  animation-duration: 10s;
+}
+
+@keyframes logotipo {
+  0% {filter: opacity(0);}
+  100% {filter: opacity(100);}
 }
 
 .logoAp{
   max-width: 25%;
   margin-left: -5em;
+  animation-name: logotipo;
+  animation-duration: 10s;
 }
 
 /************************* INICIO *************************/
