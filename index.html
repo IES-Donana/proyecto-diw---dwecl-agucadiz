@@ -16,7 +16,11 @@
 </head>
 
 <body>
-  <!--<audio src="sound/bk-sound-mp3.mp3" autoplay></audio>-->
+  <!--
+  <audio autoplay>
+    <source src="sound/bk-sound-mp3.mp3" type="audio/mpeg">
+  </audio>
+  --> 
   <header class="header">
     <section class="container">
       <div class="nombre">
@@ -44,8 +48,11 @@
   <div id="titulo-cabecera-contenedor">
     <div id="titulo-cabecera">
       <h1 class="hero-image-title">
-        Bienvenid@s<br>a mi portafolio
+        Agustín Pedrote
       </h1>
+      <h2 class="hero-image-title2">
+        Desarrollador Web
+      </h2>
       <br><br>
       <div class="centrado">
         <a href="" class="boton" target="_blank">CONTÁCTAME</a>
@@ -195,7 +202,11 @@
           </p>
         </div>
       </div>
-      <div class="cliente-video"></div>
+      <div class="cliente-video">
+        <video width="420px" controls poster="assets/fondoVideo.jpeg" id="videoTestimonio">
+          <source src="videos/testimonio-mp4.mp4" type="video/mp4">
+        </video>
+      </div>
     </section>
 
     <section class="container-test">
@@ -212,7 +223,11 @@
           </p>
         </div>
       </div>
-      <div class="cliente-video"></div>
+      <div class="cliente-video">
+        <video width="420px" controls poster="assets/fondoVideo.jpeg" id="videoTestimonio">
+          <source src="videos/testimonio-mp4.mp4" type="video/mp4">
+        </video>
+      </div>
     </section>
   </section>
   <section id="contacto" class="contact espaciado">

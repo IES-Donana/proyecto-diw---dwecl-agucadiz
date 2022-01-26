@@ -159,6 +159,12 @@ a {
   text-align: center;
 }
 
+.hero-image-title2 {
+  font-size: 2em;
+  color: whitesmoke;
+  text-align: center;
+}
+
 .video-bg {
   width: 100%;
   position: absolute;
@@ -167,7 +173,7 @@ a {
 }
 
 #div-espaciado{
-  height: 6vh;
+  height: 25vh;
 }
 
 /************************* SOBRE MI *************************/
@@ -387,7 +393,6 @@ a {
 }
 
 .cliente-video {
-  background-color: lightgray;
   height: 16em;
   width: 26em;
   margin-top: 6em;
@@ -551,6 +556,10 @@ a {
     font-size: 2em;
   }
 
+  .hero-image-title2 {
+    font-size: 1em;
+  }
+
   #div-espaciado{
     display: none;
   }
@@ -608,6 +617,10 @@ a {
     height: 15em;
     width: 24em;
     margin: 1em auto auto auto;
+  }
+
+  #videoTestimonio{
+    width: 385px;
   }
 
   /***** Contacto *****/
