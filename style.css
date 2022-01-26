@@ -119,11 +119,12 @@ main {
   padding: 0 1rem;
   font-size: 1.5rem;
   font-weight: bold;
+  transition: transform 1.5s, color 1.5s;
 }
 
 .menu a:hover {
   color: white;
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
 
 a {
