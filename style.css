@@ -338,6 +338,7 @@ a {
   background-color: lightgray;
   position: relative;
   border-radius: 6px;
+  outline: 4px solid #ff9f55;
 }
 
 /************************* MIS PROYECTOS *************************/
