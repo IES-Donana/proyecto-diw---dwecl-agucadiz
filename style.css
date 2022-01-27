@@ -183,6 +183,7 @@ a {
 
 .video-bg {
   width: 100vw;
+  height: 120vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -190,7 +191,7 @@ a {
 }
 
 #div-espaciado{
-  height: 10vh;
+  height: 25vh;
 }
 
 /************************* SOBRE MI *************************/
@@ -582,6 +583,10 @@ a {
 
   .centrado {
     display: none;
+  }
+
+  .video-bg{
+    height: 50vh;
   }
 
   /*** Sobre mi ****/
