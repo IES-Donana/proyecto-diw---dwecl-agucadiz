@@ -313,7 +313,7 @@ a {
   right: 30px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent lightgray;
+  border-color: transparent transparent transparent #ff9f55;
 }
 
 .right::before {
@@ -326,7 +326,7 @@ a {
   left: 30px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
-  border-color: transparent lightgray transparent transparent;
+  border-color: transparent #ff9f55 transparent transparent;
 }
 
 .right::after {
@@ -538,6 +538,14 @@ a {
 .footer img {
   max-width: 5%;
   filter: drop-shadow(5px 5px 4px #000);
+}
+
+#animacionLogo{
+  transition: transform 2s;
+}
+
+#animacionLogo:hover {
+  transform: rotate(360deg);
 }
 
 /*************************************************************************************/
