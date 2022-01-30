@@ -25,7 +25,7 @@
   <header class="header">
     <section class="container">
       <div>
-        <img src="assets/agucadiz_logo.svg" class="logoAp" alt="">
+        <img href="index.html" src="assets/agucadiz_logo.svg" class="logoAp" alt="">
       </div>
 
       <div class="nombre">
@@ -41,48 +41,54 @@
       </nav>
     </section>
   </header>
-  <main id="main">
-    <a id="titulo-burguer" href="index.html">PORTAFOLIO</a>
-    <div id="hamburguesa">
-      <ul>
-        <li id="barraTop" class="barra"></li>
-        <li id="barraMid" class="barra"></li>
-        <li id="barraBottom" class="barra"></li>
-      </ul>
-    </div>
-  </main>
-  <div id="titulo-cabecera-contenedor">
-    <div id="titulo-cabecera">
-      <div class="container-full">
-        <div class="stack" style="--stacks: 3;">
-          <span style="--index: 0;">AGUSTÍN PEDROTE</span>
-          <span style="--index: 1;">AGUSTÍN PEDROTE</span>
-          <span style="--index: 2;">AGUSTÍN PEDROTE</span>
-        </div>
-        <span class="right">Full Stack Developer</span>
+  <section id="inicio">
+    <main id="main">
+      <a id="titulo-burguer" href="index.html">PORTAFOLIO</a>
+      <div id="hamburguesa">
+        <ul>
+          <li id="barraTop" class="barra"></li>
+          <li id="barraMid" class="barra"></li>
+          <li id="barraBottom" class="barra"></li>
+        </ul>
       </div>
-      <br><br>
-      <div class="centrado">
-        <p href="" id="botonDialog" class="boton">CONTÁCTAME</p>
-      </div>
-      <dialog id="dialog">
-        <form method="get" id="formDialog">
-          <h2 class="section-title">Contáctame</h2>
-          <input id="nombre" type="text" name="nombre" minlength="3" maxlength="50" placeholder="Ingresa tu nombre *" required>
-          <input id="apellidos" type="text" name="apellidos"  minlength="3" maxlength="50" placeholder="Ingresa tus apellidos *" required>
-          <input id="mail" type="text" name="mail" placeholder="Ingresa tu correo *" required pattern="^\w+@\w+\.\w+$">
-          <textarea id="mensaje" name="mensaje" cols="50" rows="10" style="resize: none;" placeholder="Déjame tus comentarios *" required></textarea>
-          <div class="colorBoton2">
-            <button class="colorBoton" type="submit" value="Enviar" id="enviarDialog">Enviar</button>
-            <button class="colorBoton" id="cancelar">Cancelar</button>
+    </main>
+    <div id="titulo-cabecera-contenedor">
+      <div id="titulo-cabecera">
+        <div class="container-full">
+          <div class="stack" style="--stacks: 3;">
+            <span style="--index: 0;">AGUSTÍN PEDROTE</span>
+            <span style="--index: 1;">AGUSTÍN PEDROTE</span>
+            <span style="--index: 2;">AGUSTÍN PEDROTE</span>
           </div>
-        </form>
+          <span class="right">Full Stack Developer</span>
+        </div>
+        <br><br>
+        <div class="centrado">
+          <p href="" id="botonDialog" class="boton">CONTÁCTAME</p>
+        </div>
+        <dialog id="dialog">
+          <form method="get" id="formDialog">
+            <h2 class="section-title">Contáctame</h2>
+            <input id="nombre" type="text" name="nombre" minlength="3" maxlength="50" placeholder="Ingresa tu nombre *"
+              required>
+            <input id="apellidos" type="text" name="apellidos" minlength="3" maxlength="50"
+              placeholder="Ingresa tus apellidos *" required>
+            <input id="mail" type="text" name="mail" placeholder="Ingresa tu correo *" required
+              pattern="^\w+@\w+\.\w+$">
+            <textarea id="mensaje" name="mensaje" cols="50" rows="10" style="resize: none;"
+              placeholder="Déjame tus comentarios *" required></textarea>
+            <div class="colorBoton2">
+              <button class="colorBoton" type="submit" value="Enviar" id="enviarDialog">Enviar</button>
+              <button class="colorBoton" id="cancelar">Cancelar</button>
+            </div>
+          </form>
+      </div>
     </div>
-  </div>
-  <div>
-    <video class="video-bg" src="videos/videoFondo.mp4" autoplay muted loop></video>
-    <div id="div-espaciado"></div>
-  </div>
+    <div>
+      <video class="video-bg" src="videos/videoFondo.mp4" autoplay muted loop></video>
+      <div id="div-espaciado"></div>
+    </div>
+  </section>
   <section id="sobre" class="about espaciado">
     <article>
       <aside class="sobre-nombre">
