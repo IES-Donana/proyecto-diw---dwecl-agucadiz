@@ -686,12 +686,12 @@ details {
     height: 30vh;
   }
 
-  .hero-image-title {
-    font-size: 2em;
+  .container-full {
+    font-size: 1rem;
   }
 
-  .hero-image-title2 {
-    font-size: 1em;
+  .stack span {
+    font-size: 1.5rem;
   }
 
   #div-espaciado {
