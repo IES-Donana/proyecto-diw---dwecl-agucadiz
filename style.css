@@ -568,6 +568,10 @@ dialog::backdrop {
   background-color: tomato;
 }
 
+#animacionGif{
+  max-width: 5%;
+}
+
 /************************* FOOTER *************************/
 .footer {
   margin-bottom: 4em;
