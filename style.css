@@ -329,7 +329,8 @@ dialog::backdrop {
 }
 
 .titulo {
-  margin-left: 23.4em;
+  margin-left: 18.5em;
+  font-size: 1em;
 }
 
 .espaciado {
@@ -534,7 +535,7 @@ dialog::backdrop {
   width: 13em;
   height: 2.5em;
   margin: 2.5em auto 0 12%;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 .cliente-com {
@@ -729,7 +730,7 @@ details {
   }
 
   .titulo {
-    margin-left: 3.5em;
+    margin-left: 3em;
   }
 
   /*** Proyectos ***/
@@ -760,7 +761,7 @@ details {
     width: 12em;
     height: 3em;
     margin: 2em auto 0;
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   .cliente-com {
