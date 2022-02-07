@@ -292,15 +292,15 @@
       <form id="form" class="formulario caja">
         <input id="nombre" type="text" name="nombre" minlength="3" maxlength="50" placeholder="Ingresa tu nombre *"
           title="Nombre sólo acepta letras y espacios en blanco" pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}"
-          alt="Ingresa tu nombre" required>
+          aria-label="Ingresa tu nombre" required>
         <input id="apellidos" type="text" name="apellidos" pminlength="3" maxlength="50"
           placeholder="Ingresa tus apellidos *" title="Apellidos sólo acepta letras y espacios en blanco"
-          pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}" alt="Ingresa tus apellidos" required>
+          pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}" aria-label="Ingresa tus apellidos" required>
         <input id="email" type="email" name="email" placeholder="Ingresa tu correo *" title="Completa este campo"
-          pattern="^[a-z]+\d*[a-z@[a-z]+\.[a-z]{2,3}(\.[a-z]{2,3})?" alt="Ingresa tu correo" required>
+          pattern="^[a-z]+\d*[a-z@[a-z]+\.[a-z]{2,3}(\.[a-z]{2,3})?" aria-label="Ingresa tu correo" required>
         <textarea id="text" name="comments" cols="50" rows="10" placeholder="Déjame tus comentarios *"
-          alt="Déjame tus comentarios" required></textarea>
-        <input id="enviar" class="boton form-btn" type="submit" alt="Enviar mensaje" value="ENVIAR MENSAJE">
+          aria-label="Déjame tus comentarios" required></textarea>
+        <input id="enviar" class="boton form-btn" type="submit" aria-label="Enviar mensaje" value="ENVIAR MENSAJE">
       </form>
     </div>
 
