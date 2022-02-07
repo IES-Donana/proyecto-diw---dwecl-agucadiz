@@ -600,6 +600,7 @@ dialog::backdrop {
 }
 .nom-icono {
   margin-left: -1.5em;
+  font-size: 1em;
 }
 
 /***** Formulario de contacto *****/
