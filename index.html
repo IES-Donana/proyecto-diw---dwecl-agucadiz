@@ -70,13 +70,13 @@
           <form method="get" id="formDialog">
             <h2 class="section-title">Contáctame</h2>
             <input id="nombre" type="text" name="nombre" minlength="3" maxlength="50" placeholder="Ingresa tu nombre *"
-            aria-label="Ingresa tu nombre" required>
+             title="Ingresa tu nombre" required>
             <input id="apellidos" type="text" name="apellidos" minlength="3" maxlength="50"
-              placeholder="Ingresa tus apellidos *" aria-label="Ingresa tus apellidos" required>
-            <input id="mail" type="text" name="mail" placeholder="Ingresa tu correo *" aria-label="Ingresa tu correo" required
+              placeholder="Ingresa tus apellidos *" title="Ingresa tus apellidos" required>
+            <input id="mail" type="text" name="mail" placeholder="Ingresa tu correo *" title="Ingresa tu correo" required
               pattern="^\w+@\w+\.\w+$">
             <textarea id="mensaje" name="mensaje" cols="50" rows="10" style="resize: none;"
-              placeholder="Déjame tus comentarios *" aria-label="Déjame tus comentarios" required></textarea>
+              placeholder="Déjame tus comentarios *" title="Déjame tus comentarios" required></textarea>
             <div class="colorBoton2">
               <button class="colorBoton" type="submit" value="Enviar" id="enviarDialog">ENVIAR</button>
               <button class="colorBoton" id="cancelar">CANCELAR</button>
@@ -292,15 +292,15 @@
       <form id="form" class="formulario caja">
         <input id="nombre" type="text" name="nombre" minlength="3" maxlength="50" placeholder="Ingresa tu nombre *"
           title="Nombre sólo acepta letras y espacios en blanco" pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}"
-          aria-label="Ingresa tu nombre" required>
+          required>
         <input id="apellidos" type="text" name="apellidos" pminlength="3" maxlength="50"
           placeholder="Ingresa tus apellidos *" title="Apellidos sólo acepta letras y espacios en blanco"
-          pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}" aria-label="Ingresa tus apellidos" required>
+          pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}" required>
         <input id="email" type="email" name="email" placeholder="Ingresa tu correo *" title="Completa este campo"
-          pattern="^[a-z]+\d*[a-z@[a-z]+\.[a-z]{2,3}(\.[a-z]{2,3})?" aria-label="Ingresa tu correo" required>
+          pattern="^[a-z]+\d*[a-z@[a-z]+\.[a-z]{2,3}(\.[a-z]{2,3})?" required>
         <textarea id="text" name="comments" cols="50" rows="10" placeholder="Déjame tus comentarios *"
-          aria-label="Déjame tus comentarios" required></textarea>
-        <input id="enviar" class="boton form-btn" type="submit" aria-label="Enviar mensaje" value="ENVIAR MENSAJE">
+          title="Déjame tus comentarios" required></textarea>
+        <input id="enviar" class="boton form-btn" type="submit" title="Enviar mensaje" value="ENVIAR MENSAJE">
       </form>
     </div>
 
