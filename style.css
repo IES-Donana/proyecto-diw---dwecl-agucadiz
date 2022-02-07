@@ -281,7 +281,7 @@ dialog::backdrop {
   padding: 0.5rem;
   width: 7em;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .colorBoton2{
@@ -534,7 +534,7 @@ dialog::backdrop {
   width: 13em;
   height: 2.5em;
   margin: 2.5em auto 0 12%;
-  font-size: 21px;
+  font-size: 1.3em;
 }
 
 .cliente-com {
@@ -757,10 +757,10 @@ details {
     flex-direction: column;
   }
   .cliente-nom {
-    width: 10em;
+    width: 12em;
     height: 3em;
     margin: 2em auto 0;
-    font-size: 16px;
+    font-size: 1.3em;
   }
 
   .cliente-com {
