@@ -338,7 +338,7 @@ dialog::backdrop {
   filter: grayscale(0.2);
 }
 
-#miFoto {
+.miFoto {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -346,7 +346,7 @@ dialog::backdrop {
   padding: 1em;
 }
 
-#miFoto:hover {
+.miFoto:hover {
   filter: grayscale(100%);
   transition: all 0.5s;
 }
@@ -548,7 +548,7 @@ dialog::backdrop {
 
 .caja-coment {
   box-shadow: 0.25em 0.25em 1em rgba(0, 0, 0, 0.25);
-  height: auto;
+  height: 17em;
   padding: 1em;
 }
 
