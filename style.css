@@ -320,7 +320,7 @@ dialog::backdrop {
 }
 
 #div-espaciado {
-  height: 28vh;
+  height: 8em;
 }
 
 /************************* SOBRE MI *************************/
@@ -355,7 +355,7 @@ dialog::backdrop {
 }
 
 .espaciado {
-  padding: 2rem 1rem;
+  padding: 8em;
   filter: grayscale(0.2);
 }
 
