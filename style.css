@@ -191,6 +191,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #000;
 }
 
 #titulo-cabecera {
@@ -303,7 +304,7 @@ dialog::backdrop {
   padding: 0.5rem;
   width: 7em;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .colorBoton2{
@@ -351,7 +352,8 @@ dialog::backdrop {
 }
 
 .titulo {
-  margin-left: 23.4em;
+  margin-left: 3em;
+  font-size: 1em;
 }
 
 .espaciado {
@@ -359,7 +361,7 @@ dialog::backdrop {
   filter: grayscale(0.2);
 }
 
-#miFoto {
+.miFoto {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -367,7 +369,7 @@ dialog::backdrop {
   padding: 1em;
 }
 
-#miFoto:hover {
+.miFoto:hover {
   filter: grayscale(100%);
   transition: all 0.5s;
 }
@@ -556,7 +558,7 @@ dialog::backdrop {
   width: 13em;
   height: 2.5em;
   margin: 2.5em auto 0 12%;
-  font-size: 21px;
+  font-size: 1.1em;
 }
 
 .cliente-com {
@@ -569,7 +571,7 @@ dialog::backdrop {
 
 .caja-coment {
   box-shadow: 0.25em 0.25em 1em rgba(0, 0, 0, 0.25);
-  height: auto;
+  height: 17em;
   padding: 1em;
 }
 
@@ -621,6 +623,7 @@ dialog::backdrop {
 }
 .nom-icono {
   margin-left: -1.5em;
+  font-size: 1em;
 }
 
 /***** Formulario de contacto *****/
@@ -751,7 +754,7 @@ details {
   }
 
   .titulo {
-    margin-left: 3.5em;
+    margin-left: 3em;
   }
 
   /*** Proyectos ***/
@@ -779,10 +782,10 @@ details {
     flex-direction: column;
   }
   .cliente-nom {
-    width: 10em;
+    width: 12em;
     height: 3em;
     margin: 2em auto 0;
-    font-size: 16px;
+    font-size: 1.1em;
   }
 
   .cliente-com {
@@ -798,7 +801,7 @@ details {
     margin: 1em auto auto auto;
   }
 
-  #videoTestimonio {
+  .videoTestimonio {
     width: 385px;
   }
 
