@@ -721,6 +721,10 @@ details {
     font-size: 2rem;
   }
 
+  .bread {
+    display: none;
+  }
+
   /***** Inicio *****/
   /******************/
   #titulo-cabecera-contenedor {
