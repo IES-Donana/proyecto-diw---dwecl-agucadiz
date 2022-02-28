@@ -163,6 +163,7 @@ a {
   animation-duration: 5s;
 }
 
+/** Buscador**/
 #buscador {
   position: absolute;
   width: 125px;
@@ -171,18 +172,6 @@ a {
   border: 0;
   border-radius: 0.5rem;
 }
-
-/* #search {
-  position: absolute;
-  margin: -5em 3em 0 97em;
-  height: 22px;
-  background-color: #d90062;
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-  border: 0;
-  border-radius: 0.5rem;
-} */
 
 /************************* INICIO *************************/
 /**********************************************************/
@@ -352,8 +341,7 @@ dialog::backdrop {
 }
 
 .titulo {
-  margin-left: 3em;
-  font-size: 1em;
+  margin-left: 3.5em;
 }
 
 .espaciado {
@@ -490,6 +478,24 @@ dialog::backdrop {
   width: 250px;
   text-align: center;
   color: black;
+}
+/** Migas de pan **/
+.bread {
+  grid-column: span 3;
+  font-weight:bold;
+}
+
+#bread-testimonios{
+  margin-left: 8.5em;
+}
+
+.bread li{
+  display: inline
+}
+
+.bread li+li:before {
+  content: ">";
+  padding: 5px;
 }
 
 .portafolio {
@@ -721,8 +727,16 @@ details {
     font-size: 2rem;
   }
 
+  .bread {
+    display: none;
+  }
+
   /***** Inicio *****/
   /******************/
+  #inicio{
+ 
+  }
+
   #titulo-cabecera-contenedor {
     height: 30vh;
   }
