@@ -25,7 +25,7 @@
   <header class="header">
     <section class="container">
       <div>
-        <a href="index.html"><img src="assets/agucadiz_logo.svg" class="logoAp" alt=""></a>
+        <a href="index.html"><img src="assets/agucadiz_logo.svg" class="logoAp" alt="logo portafolio"></a>
       </div>
 
       <!-- <div class="nombre">
@@ -40,13 +40,11 @@
         <a href="#contacto">Contacto</a>
       </nav>
 
-      <label for="buscador"></label>
-      <input id="buscador" placeholder="Buscar..." type="search" name="buscador" title="buscador"
+      <input id="buscador" placeholder="Buscar..." title="buscador" type="search" name="buscador" title="buscador"
         aria-label="Buscador de contenido del sitio web">
-      <!-- <button id="search">Buscar</button> -->
     </section>
   </header>
-  <section id="inicio">
+  <section>
     <main id="main">
       <a id="titulo-burguer" href="index.html">PORTAFOLIO</a>
       <div id="hamburguesa">
@@ -225,11 +223,13 @@
   </section>
   <section id="testimonios" class="testimonials espaciado">
     <h2 class="section-title">Mis Testimonios</h2>
-    <div class="bread">
-      <ul>
-        <li><a href="#" title="Enlace a inicio">Inicio</a></li>
-        <li>Mis Testimonios</li>
-      </ul>
+    <div id="bread-testimonios">
+      <div class="bread">
+        <ul>
+          <li><a href="#" title="Enlace a inicio">Inicio</a></li>
+          <li>Mis Testimonios</li>
+        </ul>
+      </div>
     </div>
     <section class="container-test">
       <div class="cliente">
@@ -320,8 +320,8 @@
           pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}" required>
         <input id="email" type="email" name="email" placeholder="Ingresa tu correo *" title="Completa este campo"
           pattern="^[a-z]+\d*[a-z@[a-z]+\.[a-z]{2,3}(\.[a-z]{2,3})?" required>
-        <textarea id="text" name="comments" cols="50" rows="10" placeholder="Déjame tus comentarios *"
-          required></textarea>
+        <textarea id="text" name="comments" title="comentarios" cols="50" rows="10"
+          placeholder="Déjame tus comentarios *" required></textarea>
         <input id="enviar" class="boton form-btn" type="submit" value="ENVIAR MENSAJE">
       </form>
     </div>
