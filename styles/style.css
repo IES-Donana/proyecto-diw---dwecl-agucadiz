@@ -234,7 +234,7 @@ a {
     opacity: 0;
     transform: translateX(-50%);
     text-shadow: -2px 3px 0 #d90062, 2px -3px 0 #14192d;
-  }
+  };
   60% {
     opacity: 0.5;
     transform: translateX(50%);
