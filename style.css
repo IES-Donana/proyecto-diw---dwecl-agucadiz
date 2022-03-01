@@ -564,10 +564,6 @@ dialog::backdrop {
   width: 420px;
 }
 
-.idVideo2{
-  width: 420px;
-}
-
 .cliente-nom {
   width: 13em;
   height: 2.5em;
@@ -824,10 +820,6 @@ details {
   }
 
   .videoTestimonio {
-    width: 385px;
-  }
-
-  .videoTestimonio2 {
     width: 385px;
   }
 
