@@ -560,6 +560,10 @@ dialog::backdrop {
   border-radius: 1em;
 }
 
+.idVideo{
+  width: 420px;
+}
+
 .cliente-nom {
   width: 13em;
   height: 2.5em;
