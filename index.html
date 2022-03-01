@@ -23,7 +23,7 @@
   </audio>
   -->
   <header class="header">
-    <section class="container">
+    <div class="container">
       <div>
         <a href="index.html"><img src="assets/agucadiz_logo.svg" class="logoAp" alt="Logo encabezado"></a>
       </div>
@@ -40,12 +40,12 @@
         <a href="#contacto">Contacto</a>
       </nav>
 
-      <input id="buscador" placeholder="Buscar..." title="buscador" type="search" name="buscador" title="buscador"
+      <input id="buscador" placeholder="Buscar..." title="buscador" type="search" name="buscador"
         aria-label="Buscador de contenido del sitio web">
-    </section>
+    </div>
   </header>
   <section>
-    <main id="main">
+    <div id="main">
       <a id="titulo-burguer" href="index.html">PORTAFOLIO</a>
       <div id="hamburguesa">
         <ul>
@@ -54,7 +54,7 @@
           <li id="barraBottom" class="barra"></li>
         </ul>
       </div>
-    </main>
+    </div>
     <div id="titulo-cabecera-contenedor">
       <div id="titulo-cabecera">
         <div class="container-full">
@@ -73,11 +73,11 @@
           <form method="get" id="formDialog">
             <h2 class="section-title">Contáctame</h2>
             <input id="nombre2" type="text" name="nombre" minlength="3" maxlength="50" placeholder="Ingresa tu nombre *"
-             title="Ingresa tu nombre" required>
+              title="Ingresa tu nombre" required>
             <input id="apellidos2" type="text" name="apellidos" minlength="3" maxlength="50"
               placeholder="Ingresa tus apellidos *" title="Ingresa tus apellidos" required>
-            <input id="mail2" type="text" name="mail" placeholder="Ingresa tu correo *" title="Ingresa tu correo" required
-              pattern="^\w+@\w+\.\w+$">
+            <input id="mail2" type="text" name="mail" placeholder="Ingresa tu correo *" title="Ingresa tu correo"
+              required pattern="^\w+@\w+\.\w+$">
             <textarea id="mensaje" name="mensaje" cols="50" rows="10" style="resize: none;"
               placeholder="Déjame tus comentarios *" title="Déjame tus comentarios" required></textarea>
             <div class="colorBoton2">
@@ -85,6 +85,7 @@
               <button class="colorBoton" id="cancelar">CANCELAR</button>
             </div>
           </form>
+        </dialog>
       </div>
     </div>
     <div>
@@ -148,7 +149,7 @@
             <h3>Proyecto Pomodoro</h3>
             <p>
               La técnica Pomodoro es un método para mejorar la administración del tiempo dedicado
-              a una actividad.​ 
+              a una actividad.​
             </p>
           </div>
         </aside>
@@ -164,13 +165,15 @@
           </div>
         </aside>
       </a>
-      <a href="https://github.com/IES-Donana/hojas-de-estilo-i---pseudo-clases-y-pseudo-elementos-agucadiz" target="_blank" class="portafolio">
+      <a href="https://github.com/IES-Donana/hojas-de-estilo-i---pseudo-clases-y-pseudo-elementos-agucadiz"
+        target="_blank" class="portafolio">
         <img src="assets/proyecto3.jpg" alt="Pseudo clases y Pseudo elementos">
         <aside class="portafolio-info">
           <div>
             <h3>Pseudo clases y Pseudo elementos</h3>
             <p>
-              Haciendo uso de selectores de elementos, aplica en el fichero pseudo-clases-I.html las psuedoclases necesarias.
+              Haciendo uso de selectores de elementos, aplica en el fichero pseudo-clases-I.html las psuedoclases
+              necesarias.
             </p>
           </div>
         </aside>
@@ -181,7 +184,8 @@
           <div>
             <h3>Proyecto Html 5</h3>
             <p>
-              Crea un nuevo fichero llamado estructura_html5.html y realiza los cambios oportunos para que esté escrito en HTML5.
+              Crea un nuevo fichero llamado estructura_html5.html y realiza los cambios oportunos para que esté escrito
+              en HTML5.
             </p>
           </div>
         </aside>
@@ -236,7 +240,7 @@
         </div>
       </div>
       <div class="cliente-video">
-        <video width="420px" controls poster="assets/fondoVideo.jpg" class="videoTestimonio">
+        <video width="420 px" controls poster="assets/fondoVideo.jpg" class="videoTestimonio">
           <source src="videos/testimonio-mp4.mp4" type="video/mp4">
         </video>
       </div>
@@ -257,7 +261,7 @@
         </div>
       </div>
       <div class="cliente-video">
-        <video width="420px" controls poster="assets/fondoVideo2.jpg" class="videoTestimonio">
+        <video width="420 px" controls poster="assets/fondoVideo2.jpg" class="videoTestimonio">
           <source src="videos/testimonio-mp4.mp4" type="video/mp4">
         </video>
       </div>
