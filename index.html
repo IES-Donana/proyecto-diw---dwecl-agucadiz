@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Agustín Pedrote</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="styles/print.css" media="print">
+  <script src="javascript/validacion.js" defer></script>
+  <script src="javascript/hamburguesa.js" defer></script>
+  <script src="javascript/botonDialog.js" defer></script>
+  <link rel="icon" type="image/png" href="assets/agucadiz_logo.ico">
+</head>
+
+<body>
+  <!--
+  <audio autoplay>
+    <source src="sound/bk-sound-mp3.mp3" type="audio/mpeg">
+  </audio>
+  -->
+  <header class="header">
+    <div class="container">
+      <div>
+        <a href="index.html"><img src="assets/agucadiz_logo.svg" class="logoAp" alt="Logo encabezado"></a>
+      </div>
+
+      <!-- <div class="nombre">
+        <a href="index.html">PORTAFOLIO</a>
+      </div> -->
+
+      <nav class="menu" id="panelNav">
+        <a href="#">Inicio</a>
+        <a href="#sobre">Sobre mi</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <input id="buscador" placeholder="Buscar..." title="buscador" type="search" name="buscador"
+        aria-label="Buscador de contenido del sitio web">
+    </div>
+  </header>
+  <section style="page-break-after: always;">
+    <!-- <div id="main">
+      <a id="titulo-burguer" href="index.html">PORTAFOLIO</a>
+      <div id="hamburguesa">
+        <ul>
+          <li id="barraTop" class="barra"></li>
+          <li id="barraMid" class="barra"></li>
+          <li id="barraBottom" class="barra"></li>
+        </ul>
+      </div>
+    </div> -->
+    <div id="titulo-cabecera-contenedor">
+      <div id="titulo-cabecera">
+        <div class="container-full">
+          <div class="stack" style="--stacks: 3;">
+            <span style="--index: 0;">AGUSTÍN PEDROTE</span>
+            <span style="--index: 1;">AGUSTÍN PEDROTE</span>
+            <span style="--index: 2;">AGUSTÍN PEDROTE</span>
+          </div>
+          <span class="center">Bienvenidos a mi Portafolio</span>
+        </div>
+        <br><br>
+        <div class="centrado">
+          <p id="botonDialog" class="boton">CONTÁCTAME</p>
+        </div>
+        <dialog id="dialog">
+          <form method="get" id="formDialog">
+            <h2 class="section-title">Contáctame</h2>
+            <input id="nombre2" type="text" name="nombre" minlength="3" maxlength="50" placeholder="Ingresa tu nombre *"
+              title="Ingresa tu nombre" required>
+            <input id="apellidos2" type="text" name="apellidos" minlength="3" maxlength="50"
+              placeholder="Ingresa tus apellidos *" title="Ingresa tus apellidos" required>
+            <input id="mail2" type="text" name="mail" placeholder="Ingresa tu correo *" title="Ingresa tu correo"
+              required pattern="^\w+@\w+\.\w+$">
+            <textarea id="mensaje" name="mensaje" cols="50" rows="10" style="resize: none;"
+              placeholder="Déjame tus comentarios *" title="Déjame tus comentarios" required></textarea>
+            <div class="colorBoton2">
+              <button class="colorBoton" type="submit" value="Enviar" id="enviarDialog">ENVIAR</button>
+              <button class="colorBoton" id="cancelar">CANCELAR</button>
+            </div>
+          </form>
+        </dialog>
+      </div>
+    </div>
+    <div>
+      <div id="div-espaciado"></div>
+      <video class="video-bg" src="videos/videoFondo.mp4" autoplay muted loop></video>
+    </div>
+  </section>
+  <section id="sobre" class="about espaciado" style="page-break-after: always;">
+    <article>
+      <aside class="sobre-nombre">
+        <h1 class="logo">Agustín Pedrote Bejarano</h1>
+        <h2 class="titulo">Desarrollador web</h2>
+      </aside>
+      <div id="txt-sobre">
+        <p>Soy Agustín, estudié desarrollo de aplicaciones web y soy inquieto por naturaleza.
+          Me encanta aprender cosas nuevas y sumarme a cualquier proyecto interesante
+          en el que pueda ayudar. También tengo un perro gigante, toco la guitarra y
+          soy de esos tipos que prefieren un libro de papel al Kindle.</p>
+      </div>
+      <div class="timeline">
+        <div class="container-time left">
+          <div class="content">
+            <h2>2022</h2>
+            <p>Técnico Superior en Desarrollo de Aplicaciones Web.</p>
+          </div>
+        </div>
+        <div class="container-time right">
+          <div class="content">
+            <h2>2011</h2>
+            <p>Diplomatura en Relaciones Laborales.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article>
+      <div>
+        <picture>
+          <source media="(max-width: 768px)" srcset="assets/miFoto2.jpg" class="miFoto">
+          <img src="assets/miFoto.jpg" alt="Agustín" class="miFoto">
+        </picture>
+      </div>
+      <div class="centrado">
+        <a href="assets/CV.pdf" class="boton" target="_blank">DESCARGA MI CV</a>
+      </div>
+    </article>
+  </section>
+  <section id="proyectos" class="projects espaciado" style="page-break-after: always;">
+    <div class="container">
+      <h2 class="section-title">Mis Proyectos</h2>
+      <div class="bread">
+        <ul>
+          <li><a href="#" title="Enlace a inicio">Inicio</a></li>
+          <li>Mis Proyectos</li>
+        </ul>
+      </div>
+      <a href="https://github.com/ies-donana-daw/temporizador-pomodoro-antonio-fernando-agu" target="_blank"
+        class="portafolio">
+        <img src="assets/proyecto1.jpg" alt="Pomodoro">
+        <aside class="portafolio-info">
+          <div>
+            <h3>Proyecto Pomodoro</h3>
+            <p>
+              La técnica Pomodoro es un método para mejorar la administración del tiempo dedicado
+              a una actividad.​
+            </p>
+          </div>
+        </aside>
+      </a>
+      <a href="https://github.com/IES-Donana/guia-de-estilo-en-html-agucadiz" target="_blank" class="portafolio">
+        <img src="assets/proyecto2.jpg" alt="Guía de estilo">
+        <aside class="portafolio-info">
+          <div>
+            <h3>Guía de estilo</h3>
+            <p>
+              Lee la guía de estilos para CSS propuesta por Google y detecta y corrige los errores de estilo.
+            </p>
+          </div>
+        </aside>
+      </a>
+      <a href="https://github.com/IES-Donana/hojas-de-estilo-i---pseudo-clases-y-pseudo-elementos-agucadiz"
+        target="_blank" class="portafolio">
+        <img src="assets/proyecto3.jpg" alt="Pseudo clases y Pseudo elementos">
+        <aside class="portafolio-info">
+          <div>
+            <h3>Pseudo clases y Pseudo elementos</h3>
+            <p>
+              Haciendo uso de selectores de elementos, aplica en el fichero pseudo-clases-I.html las psuedoclases
+              necesarias.
+            </p>
+          </div>
+        </aside>
+      </a>
+      <a href="https://github.com/IES-Donana/html5-agucadiz" target="_blank" class="portafolio">
+        <img src="assets/proyecto4.jpg" alt="HTML 5">
+        <aside class="portafolio-info">
+          <div>
+            <h3>Proyecto Html 5</h3>
+            <p>
+              Crea un nuevo fichero llamado estructura_html5.html y realiza los cambios oportunos para que esté escrito
+              en HTML5.
+            </p>
+          </div>
+        </aside>
+      </a>
+      <a href="https://github.com/IES-Donana/selectores-css-agucadiz" target="_blank" class="portafolio">
+        <img src="assets/proyecto5.jpg" alt="Selectores CSS">
+        <aside class="portafolio-info">
+          <div>
+            <h3>Selectores CSS</h3>
+            <p>
+              Analiza el código del fichero especifidad-selector.html
+            </p>
+          </div>
+        </aside>
+      </a>
+      <a href="https://github.com/IES-Donana/proyecto-diw---dwecl-agucadiz" target="_blank" class="portafolio">
+        <img src="assets/proyecto6.jpg" alt="Portafolio">
+        <aside class="portafolio-info">
+          <div>
+            <h3>Portafolio</h3>
+            <p>
+              El portafolio es una forma de evaluación que permite monitorear el proceso de
+              aprendizaje por el profesor y por el mismo estudiante.
+            </p>
+          </div>
+        </aside>
+      </a>
+    </div>
+  </section>
+  <section id="testimonios" class="testimonials espaciado" style="page-break-after: always;">
+    <h2 class="section-title">Mis Testimonios</h2>
+    <div id="bread-testimonios">
+      <div class="bread">
+        <ul>
+          <li><a href="#" title="Enlace a inicio">Inicio</a></li>
+          <li>Mis Testimonios</li>
+        </ul>
+      </div>
+    </div>
+    <section class="container-test">
+      <div class="cliente">
+        <div class="cliente-nom">
+          <h3>María Santos López</h3>
+        </div>
+        <div class="cliente-com caja-coment">
+          <p>
+            Un servicio profesional totalmente recomendado, tanto si tienes que hacer una web con
+            él como si necesitas asistencia técnica. Llevamos trabajando con él desde hace tiempo y
+            la verdad es que estamos encantados con los resultados. Es experto en SEO, diseño, programación
+            y hosting. Siempre te ofrece soluciones para cualquier problema que se plantee. ¡Así da gusto!
+          </p>
+        </div>
+      </div>
+      <div class="cliente-video">
+        <video class="idVideo videoTestimonio" controls poster="assets/fondoVideo.jpg">
+          <source src="videos/testimonio-mp4.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+
+    <section class="container-test">
+      <div class="cliente">
+        <div class="cliente-nom">
+          <h3>Carlos Doral Pascual</h3>
+        </div>
+        <div class="cliente-com caja-coment">
+          <p>
+            Si hay algo que destacar de Agustín es su entrega hacia el trabajo y su creatividad,
+            nos ha dado soluciones a todos los problemas técnicos que hemos encontrado y tiene unas ideas
+            fabulosas en cuanto a diseño y estética. Se lo recomiendo a cualquier empresa que necesite un
+            profesional experimentado. Profesional y serio.
+          </p>
+        </div>
+      </div>
+      <div class="cliente-video">
+        <video class="idVideo videoTestimonio" controls poster="assets/fondoVideo2.jpg">
+          <source src="videos/testimonio-mp4.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+  </section>
+  <section id="contacto" class="contact espaciado" style="page-break-after: always;">
+    <div class="container">
+      <h2 class="section-title">Contacto</h2>
+      <div class="bread">
+        <ul>
+          <li><a href="#" title="Enlace a inicio">Inicio</a></li>
+          <li>Contacto</li>
+        </ul>
+      </div>
+      <section class="todas-redes">
+        <div class="shadow">
+          <article class="redes" id="tlf">
+            <a href="tel:617537876"><img src="assets/contact-phone.png" alt="Teléfono" class="img-contact"></a>
+            <h3 class="nom-icono"><a href="tel:617537876">617537876</a></h3>
+          </article>
+        </div>
+        <div class="shadow">
+          <article class="redes" id="mail">
+            <a href="mailto:agustin.pedrote@iesdonana.org"><img src="assets/contact-email.png" alt="Email"
+                class="img-contact"></a>
+            <h3 class="nom-icono"><a href="mailto:agustin.pedrote@iesdonana.org">agustin.pedrote@iesdonana.org</a></h3>
+          </article>
+        </div>
+
+        <article class="redes">
+          <a href="https://youtube.com" target="_blank"><img src="assets/youtube_icon-icons.com_65487.svg" alt="YouTube"
+              class="img-contact"></a>
+          <a href="https://twitter.com" target="_blank"><img src="assets/twitter_icon-icons.com_65486.svg" alt="Twitter"
+              class="img-contact"></a>
+          <a href="https://github.com" target="_blank"><img src="assets/github_icon-icons.com_65505.svg" alt="Github"
+              class="img-contact"></a>
+          <a href="https://www.linkedin.com" target="_blank"><img src="assets/linkedin_icon-icons.com_65488.svg"
+              alt="LinkedIn" class="img-contact"></a>
+          <a href="https://instagram.com" target="_blank"><img src="assets/instagram_icon-icons.com_65485.svg"
+              alt="Instagram" class="img-contact"></a>
+        </article>
+      </section>
+
+      <form id="form" class="formulario caja">
+        <input id="nombre" type="text" name="nombre" minlength="3" maxlength="50" placeholder="Ingresa tu nombre *"
+          title="Nombre sólo acepta letras y espacios en blanco" pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}"
+          required>
+        <input id="apellidos" type="text" name="apellidos" minlength="3" maxlength="50"
+          placeholder="Ingresa tus apellidos *" title="Apellidos sólo acepta letras y espacios en blanco"
+          pattern="^((\s?[a-zA-ZáéíóúÁÉÍÓÚñÑ]+){1,2}){1,2}" required>
+        <input id="email" type="email" name="email" placeholder="Ingresa tu correo *" title="Completa este campo"
+          pattern="^[a-z]+\d*[a-z@[a-z]+\.[a-z]{2,3}(\.[a-z]{2,3})?" required>
+        <textarea id="text" name="comments" cols="50" rows="10" placeholder="Déjame tus comentarios *"
+          title="Déjame tus comentarios" required></textarea>
+        <input id="enviar" class="boton form-btn" type="submit" title="Enviar mensaje" value="ENVIAR MENSAJE">
+      </form>
+    </div>
+
+  </section>
+  <footer class="footer">
+    <div id="validadores-imagen">
+      <img src="assets/html5-validator-badge-blue.png" alt="validador-html 5">
+      <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="validador-css">
+      <img src="assets/AA-blue.gif" alt="validador-AA">
+    </div>
+    <div>
+      <details>
+        <summary>Púlsame para ver mi logo animado.</summary>
+        <img src="assets/logo-gif.gif" id="animacionGif" alt="">
+      </details>
+    </div>
+    <div>
+      <a href="index.html">
+        <img id="animacionLogo" src="assets/agucadiz_logo.svg" alt="Agustín Pedrote Bejarano">
+      </a>
+    </div>
+    <small>El portafolio de Agustín Pedrote fue editado por última vez el 28 de febrero de 2022.</small>
+  </footer>
+</body>
+
+</html>
